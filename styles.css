@@ -1,0 +1,13 @@
+header {
+    background-image: url(images/pic_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 167vh;
+
+    /*background-size: 90rem auto;*/
+}
+
+.content-inside h1 {
+    font-size: 120px;
+}
