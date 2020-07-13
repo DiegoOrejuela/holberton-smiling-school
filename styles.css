@@ -1,7 +1,78 @@
+
+:root {
+    --theme-color: #C271FF;
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --black-color: #071629;
+    --gray-color: rgba(7, 22, 41, 0.501584);
+}
+
+* {
+    font-family: var(--font-family-base);
+}
+
+.social-media svg {
+    fill: white;
+}
+
+.play-image {
+    position: absolute;
+    left: 37%;
+    top: 30%;
+}
+
+.cover-video {
+    position: relative;
+}
+
+.free-memberships-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+/* Colors */
+
+.bg-color-theme {
+    background-color: var(--theme-color);
+}
+
+.bg-color-dark {
+    background-color: var(--black-color);
+}
+
+.text-lh-26px {
+    line-height: 1.625rem;
+}
+
+.text-black-color {
+    color: var(--black-color);
+}
+
+.text-gray-color {
+    color: var(--gray-color);
+}
+
+.text-theme-color {
+    color: var(--theme-color);
+}
+
+.font-size-060 {
+    font-size: 0.60rem;
+    /*letter-spacing: 0.2px;*/
+}
+
+.font-size-0875 { /*14 px*/
+    font-size: 0.875rem;
+}
+
+.font-size-32px-rem {
+    font-size: 2rem;
+}
+
+
 header {
     background-image: url(images/pic_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 
     height: 167vh;
 
