@@ -96,8 +96,8 @@
     opacity: 0.5;
 }
 
-.register-button:hover {
-    filter: brightness(95%);
+.button-hover-09:hover {
+    opacity: 0.9;
 }
 
 
