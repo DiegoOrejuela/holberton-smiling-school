@@ -64,9 +64,8 @@
         <!-- search panel -->
         <div class="bg-color-theme">
             <div class="container">
-                <form class="form-group row mb-0 pt-4 pb-4">
-                    <!-- keywords -->
-                    <div class="form-group col-4 mb-0 mt-0">
+                <div class="row mb-0 pt-4 pb-4">
+                    <div class="col-lg-4 col-md-12 col-12 mb-0 mt-0">
                         <label class="d-block font-size-12px-rem text-white font-weight-bold" for="exampleInputEmail1">KEYWORDS</label>
                         <div class="input-group mb-2">
                             <div class="input-group-prepend">
@@ -74,12 +73,12 @@
                                     <img src="images/search_icon.png" alt="" width="20" height="20">
                                 </div>
                             </div>
-                            <input type="text" class="form-control form-control-lg" id="keyword" placeholder="Search by keywords" aria-describedby="keyword">
+                            <input type="search" class="form-control form-control-lg" id="keyword" placeholder="Search by keywords" aria-describedby="keyword">
                         </div>
                     </div>
-                    <div class="form-group col-4 mb-0 mt-0">
+                    <div class="col-lg-4 col-md-6 col-12 mb-0 mt-0">
                         <label class="d-block font-size-12px-rem text-white font-weight-bold" for="exampleInputEmail1">TOPIC</label>
-                        <select class="form-control form-control-lg">
+                        <select id='topic' class="form-control form-control-lg">
                             <div class="dropdown-menu">
                                 <option class="dropdown-item">All</option>
                                 <option class="dropdown-item">Novice</option>
@@ -89,9 +88,9 @@
                             
                         </select>
                     </div>
-                    <div class="form-group col-4 mb-0 mt-0">
+                    <div class="col-lg-4 col-md-6 col-12mb-0 mt-0">
                         <label class="d-block font-size-12px-rem text-white font-weight-bold" for="exampleInputEmail1">SORT BY</label>
-                        <select class="form-control form-control-lg">
+                        <select id='sort-by' class="form-control form-control-lg">
                             <div class="dropdown-menu">
                                 <option class="dropdown-item">Most Popular</option>
                                 <option class="dropdown-item">Most Recent</option>
@@ -100,17 +99,15 @@
                             
                         </select>
                     </div>
-                </form>
-                
-                
+                </div>
             </div>
         </div>
 
-        <!-- search panel -->
+        <!-- result search -->
         <div class="container p-5">
             <span class="d-block pb-5 text-gray-color">11 videos</span>
             <div class="row">
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 1 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -145,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 2 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -180,7 +177,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 3 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -215,7 +212,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 4 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -250,7 +247,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 1 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -285,7 +282,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 2 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -320,7 +317,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 3 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -355,7 +352,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 4 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -390,7 +387,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 1 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -425,7 +422,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 2 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
@@ -460,7 +457,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-5">
                     <!-- video 3 -->
                     <div class="video-1 d-flex flex-column mr-3">
                         <div class="cover-video">
