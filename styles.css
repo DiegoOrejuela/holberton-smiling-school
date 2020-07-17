@@ -96,6 +96,14 @@
     opacity: 0.5;
 }
 
+.opacity-025 {
+    opacity: 0.25;
+}
+
+.opacity-050 {
+    opacity: 0.50;
+}
+
 .button-hover-09:hover {
     opacity: 0.9;
 }
@@ -121,6 +129,12 @@ header.pricing {
     height: 167vh;
 
     /*background-size: 90rem auto;*/
+}
+
+header.courses {
+    background-image: url(images/pic_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content-inside-header h1 {
